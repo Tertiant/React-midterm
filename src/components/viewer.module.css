@@ -1,0 +1,33 @@
+.img{
+    max-height: 300px;
+    width: auto;
+    border: none;    
+    border-radius: 2px;
+    margin: 6px 0px;
+}
+
+.viewerContainer {
+    display: flex;
+}
+
+.viewerContainer ul{
+    /* list-style-type: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.viewerContainer ol {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.viewerContainer li {
+    text-align: left;
+}
+
+.viewerContainer p {
+    margin: 0px;
+}

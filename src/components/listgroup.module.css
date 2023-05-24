@@ -1,0 +1,27 @@
+.li {
+    display: flex;
+    max-height: 100px;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0px;
+    padding: 8px;
+    padding-right: 16px;
+    border-radius: 6px;
+}
+
+.li:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(216, 242, 211);
+    box-shadow: 3px 3px 3px rgba(216, 242, 211, 0.5);
+}
+
+.li img{
+    max-height: 75px;
+    width: auto;
+    border: none;    
+    border-radius: 2px;
+    margin: 6px 0px;
+}
